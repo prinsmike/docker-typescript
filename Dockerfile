@@ -4,6 +4,8 @@ MAINTAINER Michael Prinsloo <mike.prinsloo@gmail.com>
 RUN apk add --no-cache --virtual .persistent-deps \
 	curl \
 	openssl \
+	git \
+	openssh \
 	make \
 	gcc \
 	g++ \
