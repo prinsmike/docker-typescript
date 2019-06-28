@@ -1,5 +1,5 @@
-FROM node:alpine
-MAINTAINER Michael Prinsloo <mike.prinsloo@gmail.com>
+FROM node:8.16.0-alpine
+MAINTAINER Michael Prinsloo <github.com/prinsmike>
 
 RUN apk add --no-cache --virtual .persistent-deps \
 	curl \
